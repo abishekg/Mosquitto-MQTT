@@ -1,0 +1,27 @@
+{
+  "name": "mosquitto",
+  "version": "1.0.0",
+  "description": "Ship Side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": "Abishek G",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "file-type": "^10.4.0",
+    "fs": "0.0.1-security",
+    "image-to-base64": "^2.0.1",
+    "mongoose": "^5.3.8",
+    "mqtt": "^2.18.8",
+    "mssql": "^4.2.2",
+    "pdfkit": "^0.8.3",
+    "read-chunk": "^3.0.0",
+    "sequelize": "^4.41.0",
+    "split-file": "^2.1.0"
+  }
+}
